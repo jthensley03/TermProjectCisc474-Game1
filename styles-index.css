@@ -27,6 +27,15 @@ body {
     align-self: stretch;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.item-dropdown {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+    z-index: 3;
+}
 .button {
     background-color: #1c87c9;
     border: none;
