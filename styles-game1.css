@@ -40,6 +40,8 @@ body {
     grid-row-start: 1;
     grid-row-end: 2;
     outline-color: black;
+    outline-style: solid;
+    outline-width: 5px;
 }
 .item-header {
     background-color: #1c87c9;
@@ -58,4 +60,6 @@ body {
     grid-row-start: 1;
     grid-row-end: 2;
     outline-color: black;
+    outline-style: solid;
+    outline-width: 5px;
 }
