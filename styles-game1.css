@@ -32,8 +32,7 @@ body {
     grid-row-start: 1;
     grid-row-end: 2;
     display: grid;
-    grid-template-columns: auto 200px 200px 200px auto;
-    grid-template-rows: auto 200px 200px 200px auto;
+    grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
     column-gap: 100px;
     row-gap: 100px;
     z-index: 1;
@@ -53,11 +52,9 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .item-card {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
     outline-color: black;
     outline-style: solid;
     outline-width: 5px;
+    width: 200px;
+    height: 200px;
 }
