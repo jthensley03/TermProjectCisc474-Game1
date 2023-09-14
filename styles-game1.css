@@ -27,18 +27,16 @@ body {
     z-index: 1;
 }
 .container-game {
-    min-width: 100%;
-    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
     display: grid;
     grid-template-columns: auto 200px 200px 200px 200px auto;
     grid-template-rows: auto 200px 200px 200px 200px auto;
     column-gap: 100px;
     row-gap: 100px;
     z-index: 1;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
     outline-color: black;
     outline-style: solid;
     outline-width: 5px;
