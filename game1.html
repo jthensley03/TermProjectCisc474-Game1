@@ -1,26 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles-game1.css">
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles-game1.css">
     <title>Game 1</title>
+    <script defer src="js/game1.js"></script>
 </head>
 <body>
-
-<!--the CSS Grid Container for the header section-->
-<div class="container-header">
-    <!--the header background-->
-    <div class="item-header"></div>
-</div>
-
-<!-- the CSS Grid container for the main page-->
-<div class="container">
-    <!-- the CSS Grid container for the game-->
-    <div class="container-game">
-        <div class="item-card"></div>
-        <div class="item-card"></div>
-        <div class="item-card"></div>
-        <div class="item-card"></div>
-        <div class="item-card"></div>
-        <div class="item-card"></div>
-    </div>
-</div>
+    <!-- <h1>is this working</h1> -->
+    <button id="start-button" onclick="startGame()">Start Game</button>
+    <button id="subtract-button" onclick="subtractTwoCards()" class="subtract-button">- Two Cards</button>
+    <section id="memory-game" class="memory-game"></section>
+    <button id="add-button" onclick="addTwoCards()" class="add-button">+ Two Cards</button>
+</body>
